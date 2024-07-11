@@ -1,0 +1,42 @@
+#users {
+    background: #56b2801a;
+}
+.users {
+    padding: 50px 0;
+    &__cards {
+        margin-bottom: 50px;
+    }
+    &__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        background: #fff;
+        padding: 30px 20px;
+        border-radius: 5px;
+        &__stars {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        h3 {
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 28.8px;
+            text-align: center;
+            color: #1d293f;
+        }
+        p {
+            font-family: Helvetica;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 20.7px;
+            text-align: center;
+            color: #7c8087;
+        }
+    }
+}
+
+.swiper-pagination-bullets {
+    transform: translateY(50px);
+}
